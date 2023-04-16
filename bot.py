@@ -29,7 +29,7 @@ def post(content, images):
     mastodon.status_post(content, media_ids=media_ids)
 
 mastodon = Mastodon(
-        access_token = '66ql906tLSLGy9g-yHa1BLIy9TM0wnYpD5pt9YuX2LA',
+        access_token = 'TOKEN',
         api_base_url = 'https://aus.social'
     )
 
